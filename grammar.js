@@ -188,7 +188,7 @@ const COMMENTS = [
 ];
 
 const FUNCTIONS = [
-  /fn::[a-zA-Z0-9_]+/,
+  seq("fn", repeat1(seq("::", /[a-zA-Z0-9_]+/))),
   /array::[a-z]+((::)[a-z]+)?/,
   "count",
   /crypto::[a-z0-9]+((::)[a-z0-9]+)?/,
@@ -252,8 +252,8 @@ module.exports = grammar({
           $.property,
           $.identifier,
           $.duration,
-          $.scripting_function
-        )
+          $.scripting_function,
+        ),
       ),
     scripting_function: ($) =>
       seq("function(){", prec(2, $.scripting_content), choice("};", "},")),
