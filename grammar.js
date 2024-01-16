@@ -188,7 +188,7 @@ const COMMENTS = [
 ];
 
 const FUNCTIONS = [
-  seq("fn", repeat1(seq("::", /[a-zA-Z0-9_]+/))),
+  /fn(::[a-zA-Z0-9_]+)+/,
   /array::[a-z]+((::)[a-z]+)?/,
   "count",
   /crypto::[a-z0-9]+((::)[a-z0-9]+)?/,
