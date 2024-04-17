@@ -919,6 +919,10 @@
         },
         {
           "type": "STRING",
+          "value": "option"
+        },
+        {
+          "type": "STRING",
           "value": "geometry"
         }
       ]
