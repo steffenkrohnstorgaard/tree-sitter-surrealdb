@@ -586,6 +586,14 @@
         },
         {
           "type": "STRING",
+          "value": "IF NOT"
+        },
+        {
+          "type": "STRING",
+          "value": "EXISTS"
+        },
+        {
+          "type": "STRING",
           "value": "FUNCTION"
         },
         {

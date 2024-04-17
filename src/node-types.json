@@ -513,6 +513,10 @@
     "named": false
   },
   {
+    "type": "EXISTS",
+    "named": false
+  },
+  {
     "type": "FALSE",
     "named": false
   },
@@ -562,6 +566,10 @@
   },
   {
     "type": "IF",
+    "named": false
+  },
+  {
+    "type": "IF NOT",
     "named": false
   },
   {

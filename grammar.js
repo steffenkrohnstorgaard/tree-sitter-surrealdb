@@ -121,6 +121,8 @@ const KEYWORDS = [
   "KV",
   "TO",
   "OUT",
+  "IF NOT",
+  "EXISTS",
   "FUNCTION",
   "PARAM",
 ];
