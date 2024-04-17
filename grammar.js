@@ -27,6 +27,7 @@ const TYPES = [
   "object",
   "string",
   "record",
+  "option",
   "geometry",
 ];
 
@@ -72,7 +73,6 @@ const KEYWORDS = [
   "CONTENT",
   "SET",
   "RETURN",
-  // "NONE", // NOTHING
   "BEFORE",
   "AFTER",
   "DIFF",
