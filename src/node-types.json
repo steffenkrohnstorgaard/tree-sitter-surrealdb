@@ -621,10 +621,6 @@
     "named": false
   },
   {
-    "type": "LOGIN",
-    "named": false
-  },
-  {
     "type": "MERGE",
     "named": false
   },
@@ -830,6 +826,10 @@
   },
   {
     "type": "USE",
+    "named": false
+  },
+  {
+    "type": "USER",
     "named": false
   },
   {

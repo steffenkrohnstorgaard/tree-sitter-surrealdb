@@ -83,7 +83,7 @@ const KEYWORDS = [
   "DEFINE",
   "NAMESPACE",
   "DATABASE",
-  "LOGIN",
+  "USER",
   "PASSWORD",
   "PASSHASH",
   "TOKEN",

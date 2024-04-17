@@ -434,7 +434,7 @@
         },
         {
           "type": "STRING",
-          "value": "LOGIN"
+          "value": "USER"
         },
         {
           "type": "STRING",
