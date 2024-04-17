@@ -570,6 +570,14 @@
         },
         {
           "type": "STRING",
+          "value": "TO"
+        },
+        {
+          "type": "STRING",
+          "value": "OUT"
+        },
+        {
+          "type": "STRING",
           "value": "FUNCTION"
         },
         {
