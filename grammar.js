@@ -113,6 +113,8 @@ const KEYWORDS = [
   "FIELDS",
   "COLUMNS",
   "UNIQUE",
+  "DEFAULT",
+  "READONLY",
   "REMOVE",
   "SLEEP",
   "INFO",

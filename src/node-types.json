@@ -457,6 +457,10 @@
     "named": false
   },
   {
+    "type": "DEFAULT",
+    "named": false
+  },
+  {
     "type": "DEFINE",
     "named": false
   },
@@ -710,6 +714,10 @@
   },
   {
     "type": "PS512",
+    "named": false
+  },
+  {
+    "type": "READONLY",
     "named": false
   },
   {

@@ -554,6 +554,14 @@
         },
         {
           "type": "STRING",
+          "value": "DEFAULT"
+        },
+        {
+          "type": "STRING",
+          "value": "READONLY"
+        },
+        {
+          "type": "STRING",
           "value": "REMOVE"
         },
         {
