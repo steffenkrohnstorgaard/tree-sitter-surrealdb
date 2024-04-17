@@ -117,6 +117,8 @@ const KEYWORDS = [
   "SLEEP",
   "INFO",
   "KV",
+  "TO",
+  "OUT",
   "FUNCTION",
   "PARAM",
 ];
