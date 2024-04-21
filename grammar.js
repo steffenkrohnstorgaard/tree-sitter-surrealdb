@@ -127,6 +127,8 @@ const KEYWORDS = [
   "PARAM",
   "LIVE",
   "ONLY",
+  "OMIT",
+  "OPTION",
 ];
 
 const OPERATORS = [
@@ -198,6 +200,7 @@ const COMMENTS = [
 const FUNCTIONS = [
   /fn(::[a-zA-Z0-9_]+)+/,
   /array::[a-z]+((::)[a-z]+)?/,
+  /object(::[a-z_]+)+/,
   "count",
   /crypto::[a-z0-9]+((::)[a-z0-9]+)?/,
   /geo::[a-z]+((::)[a-z]+)?/,
@@ -211,7 +214,7 @@ const FUNCTIONS = [
   /sleep/,
   /string::[a-zA-Z]+/,
   /time::[a-z]+/,
-  /type::[a-z]+/,
+  /type(::[a-z]+)+/,
   /function/,
 ];
 
@@ -246,8 +249,8 @@ module.exports = grammar({
           $.operator,
           $.punctuation,
           $.delimiter,
-          $.type,
           $.function,
+          $.type,
           $.variable,
           $.string,
           $.bool,
@@ -279,10 +282,10 @@ module.exports = grammar({
     operator: ($) => choice(...OPERATORS),
     punctuation: ($) => choice(...PUNCTUATIONS),
     delimiter: ($) => choice(...DELIMITERS),
+    function: ($) => choice(...FUNCTIONS),
     type: ($) => choice($.datatype, $.algotype),
     datatype: ($) => choice(...TYPES),
     algotype: ($) => choice(...TYPE_ALGORITHMS),
-    function: ($) => choice(...FUNCTIONS),
     bool: ($) => choice(...BOOLS),
     nothing: ($) => choice(...NOTHINGS),
     variable: ($) => /\$[a-zA-Z_]+[a-zA-Z0-9_]*(\.[a-zA-Z0-9_]+)*/,

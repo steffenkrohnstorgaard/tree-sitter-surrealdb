@@ -41,11 +41,11 @@
             },
             {
               "type": "SYMBOL",
-              "name": "type"
+              "name": "function"
             },
             {
               "type": "SYMBOL",
-              "name": "function"
+              "name": "type"
             },
             {
               "type": "SYMBOL",
@@ -607,6 +607,14 @@
         {
           "type": "STRING",
           "value": "ONLY"
+        },
+        {
+          "type": "STRING",
+          "value": "OMIT"
+        },
+        {
+          "type": "STRING",
+          "value": "OPTION"
         }
       ]
     },
@@ -877,6 +885,83 @@
         }
       ]
     },
+    "function": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "PATTERN",
+          "value": "fn(::[a-zA-Z0-9_]+)+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "array::[a-z]+((::)[a-z]+)?"
+        },
+        {
+          "type": "PATTERN",
+          "value": "object(::[a-z_]+)+"
+        },
+        {
+          "type": "STRING",
+          "value": "count"
+        },
+        {
+          "type": "PATTERN",
+          "value": "crypto::[a-z0-9]+((::)[a-z0-9]+)?"
+        },
+        {
+          "type": "PATTERN",
+          "value": "geo::[a-z]+((::)[a-z]+)?"
+        },
+        {
+          "type": "PATTERN",
+          "value": "http::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "is::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "math::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "meta::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "parse::[a-z]+::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "rand(::[a-z]+(::[a-z0-9]+)?)?"
+        },
+        {
+          "type": "PATTERN",
+          "value": "session::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "sleep"
+        },
+        {
+          "type": "PATTERN",
+          "value": "string::[a-zA-Z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "time::[a-z]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "type(::[a-z]+)+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "function"
+        }
+      ]
+    },
     "type": {
       "type": "CHOICE",
       "members": [
@@ -1005,79 +1090,6 @@
         {
           "type": "STRING",
           "value": "RS512"
-        }
-      ]
-    },
-    "function": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "PATTERN",
-          "value": "fn(::[a-zA-Z0-9_]+)+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "array::[a-z]+((::)[a-z]+)?"
-        },
-        {
-          "type": "STRING",
-          "value": "count"
-        },
-        {
-          "type": "PATTERN",
-          "value": "crypto::[a-z0-9]+((::)[a-z0-9]+)?"
-        },
-        {
-          "type": "PATTERN",
-          "value": "geo::[a-z]+((::)[a-z]+)?"
-        },
-        {
-          "type": "PATTERN",
-          "value": "http::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "is::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "math::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "meta::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "parse::[a-z]+::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "rand(::[a-z]+(::[a-z0-9]+)?)?"
-        },
-        {
-          "type": "PATTERN",
-          "value": "session::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "sleep"
-        },
-        {
-          "type": "PATTERN",
-          "value": "string::[a-zA-Z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "time::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "type::[a-z]+"
-        },
-        {
-          "type": "PATTERN",
-          "value": "function"
         }
       ]
     },

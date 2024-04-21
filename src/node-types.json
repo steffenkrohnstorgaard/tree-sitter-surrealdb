@@ -669,11 +669,19 @@
     "named": false
   },
   {
+    "type": "OMIT",
+    "named": false
+  },
+  {
     "type": "ON",
     "named": false
   },
   {
     "type": "ONLY",
+    "named": false
+  },
+  {
+    "type": "OPTION",
     "named": false
   },
   {
