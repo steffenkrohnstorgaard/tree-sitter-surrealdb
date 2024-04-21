@@ -125,6 +125,8 @@ const KEYWORDS = [
   "EXISTS",
   "FUNCTION",
   "PARAM",
+  "LIVE",
+  "ONLY",
 ];
 
 const OPERATORS = [

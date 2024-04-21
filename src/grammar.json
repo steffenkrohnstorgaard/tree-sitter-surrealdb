@@ -599,6 +599,14 @@
         {
           "type": "STRING",
           "value": "PARAM"
+        },
+        {
+          "type": "STRING",
+          "value": "LIVE"
+        },
+        {
+          "type": "STRING",
+          "value": "ONLY"
         }
       ]
     },

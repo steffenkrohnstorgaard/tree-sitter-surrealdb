@@ -629,6 +629,10 @@
     "named": false
   },
   {
+    "type": "LIVE",
+    "named": false
+  },
+  {
     "type": "MERGE",
     "named": false
   },
@@ -666,6 +670,10 @@
   },
   {
     "type": "ON",
+    "named": false
+  },
+  {
+    "type": "ONLY",
     "named": false
   },
   {
