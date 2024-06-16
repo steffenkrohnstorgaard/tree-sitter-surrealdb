@@ -631,6 +631,10 @@
         {
           "type": "STRING",
           "value": "FILTERS"
+        },
+        {
+          "type": "STRING",
+          "value": "REBUILD"
         }
       ]
     },

@@ -133,6 +133,7 @@ const KEYWORDS = [
   "SEARCH ANALYZER",
   "TOKENIZERS",
   "FILTERS",
+  "REBUILD",
 ];
 
 const OPERATORS = [
