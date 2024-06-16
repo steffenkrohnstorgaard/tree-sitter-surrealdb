@@ -369,6 +369,10 @@
     "named": false
   },
   {
+    "type": "ANALYZER",
+    "named": false
+  },
+  {
     "type": "AND",
     "named": false
   },
@@ -530,6 +534,10 @@
   },
   {
     "type": "FIELDS",
+    "named": false
+  },
+  {
+    "type": "FILTERS",
     "named": false
   },
   {
@@ -777,6 +785,10 @@
     "named": false
   },
   {
+    "type": "SEARCH ANALYZER",
+    "named": false
+  },
+  {
     "type": "SELECT",
     "named": false
   },
@@ -826,6 +838,10 @@
   },
   {
     "type": "TOKEN",
+    "named": false
+  },
+  {
+    "type": "TOKENIZERS",
     "named": false
   },
   {

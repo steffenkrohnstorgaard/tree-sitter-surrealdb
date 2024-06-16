@@ -615,12 +615,32 @@
         {
           "type": "STRING",
           "value": "OPTION"
+        },
+        {
+          "type": "STRING",
+          "value": "ANALYZER"
+        },
+        {
+          "type": "STRING",
+          "value": "SEARCH ANALYZER"
+        },
+        {
+          "type": "STRING",
+          "value": "TOKENIZERS"
+        },
+        {
+          "type": "STRING",
+          "value": "FILTERS"
         }
       ]
     },
     "operator": {
       "type": "CHOICE",
       "members": [
+        {
+          "type": "PATTERN",
+          "value": "[@][0-9]*[@]"
+        },
         {
           "type": "STRING",
           "value": "&&"

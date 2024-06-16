@@ -129,9 +129,14 @@ const KEYWORDS = [
   "ONLY",
   "OMIT",
   "OPTION",
+  "ANALYZER",
+  "SEARCH ANALYZER",
+  "TOKENIZERS",
+  "FILTERS",
 ];
 
 const OPERATORS = [
+  /[@][0-9]*[@]/,
   "&&",
   "AND",
   "||",
