@@ -134,6 +134,7 @@ const KEYWORDS = [
   "TOKENIZERS",
   "FILTERS",
   "REBUILD",
+  "THROW",
 ];
 
 const OPERATORS = [

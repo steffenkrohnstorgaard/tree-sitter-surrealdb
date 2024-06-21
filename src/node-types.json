@@ -833,6 +833,10 @@
     "named": false
   },
   {
+    "type": "THROW",
+    "named": false
+  },
+  {
     "type": "TIMEOUT",
     "named": false
   },

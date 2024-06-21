@@ -635,6 +635,10 @@
         {
           "type": "STRING",
           "value": "REBUILD"
+        },
+        {
+          "type": "STRING",
+          "value": "THROW"
         }
       ]
     },
