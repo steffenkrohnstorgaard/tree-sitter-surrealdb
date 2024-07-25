@@ -639,6 +639,18 @@
         {
           "type": "STRING",
           "value": "THROW"
+        },
+        {
+          "type": "STRING",
+          "value": "RELATION"
+        },
+        {
+          "type": "STRING",
+          "value": "NORMAL"
+        },
+        {
+          "type": "STRING",
+          "value": "FLEXIBLE"
         }
       ]
     },

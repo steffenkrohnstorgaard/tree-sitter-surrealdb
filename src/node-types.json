@@ -541,6 +541,10 @@
     "named": false
   },
   {
+    "type": "FLEXIBLE",
+    "named": false
+  },
+  {
     "type": "FOR",
     "named": false
   },
@@ -657,6 +661,10 @@
     "named": false
   },
   {
+    "type": "NORMAL",
+    "named": false
+  },
+  {
     "type": "NOT IN",
     "named": false
   },
@@ -754,6 +762,10 @@
   },
   {
     "type": "RELATE",
+    "named": false
+  },
+  {
+    "type": "RELATION",
     "named": false
   },
   {

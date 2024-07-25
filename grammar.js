@@ -135,6 +135,9 @@ const KEYWORDS = [
   "FILTERS",
   "REBUILD",
   "THROW",
+  "RELATION",
+  "NORMAL",
+  "FLEXIBLE",
 ];
 
 const OPERATORS = [
