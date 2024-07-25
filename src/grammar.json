@@ -646,10 +646,6 @@
         },
         {
           "type": "STRING",
-          "value": "NORMAL"
-        },
-        {
-          "type": "STRING",
           "value": "FLEXIBLE"
         }
       ]

@@ -136,7 +136,6 @@ const KEYWORDS = [
   "REBUILD",
   "THROW",
   "RELATION",
-  "NORMAL",
   "FLEXIBLE",
 ];
 

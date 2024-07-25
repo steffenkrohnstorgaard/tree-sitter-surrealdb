@@ -661,10 +661,6 @@
     "named": false
   },
   {
-    "type": "NORMAL",
-    "named": false
-  },
-  {
     "type": "NOT IN",
     "named": false
   },
